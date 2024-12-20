@@ -8,4 +8,4 @@ It was fairly straight forward. I did update it so that a user can remove a like
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+[View API »](https://project-happy-thoughts-api-kappa.vercel.app/)

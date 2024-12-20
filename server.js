@@ -7,8 +7,7 @@ import { configDotenv } from "dotenv";
 // Load environment variables
 configDotenv();
 
-const mongoUrl =
-  process.env.MONGO_URL || "mongodb://localhost/happy-thoughts-api";
+const mongoUrl = process.env.MONGO_URL;
 mongoose.connect(mongoUrl);
 mongoose.Promise = Promise;
 
@@ -50,9 +49,7 @@ const port = process.env.PORT || 8080;
 const app = express();
 
 // Add middlewares to enable cors and json body parsing
-app.use(
-  cors({ origin: "https://mongodb-api--happy-thoughts-by-helene.netlify.app" })
-);
+app.use(cors());
 app.use(express.json());
 
 // API documentation
