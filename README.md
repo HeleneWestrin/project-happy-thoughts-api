@@ -1,12 +1,10 @@
 # Project Happy Thoughts API
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+The project was to create an API using Express.js and connect it to a MongoDB databasw for a previous project called Happy Thoughts.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+It was fairly straight forward. I did update it so that a user can remove a like now as well, and also used PUT instead of POST for the likes. I ran into some syntax errors that I needed to fix, but all in all it was a smooth project.
 
 ## View it live
 
